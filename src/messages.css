@@ -1,0 +1,43 @@
+.card_guestCard{
+    height: fit-content;
+    width: fit-content;
+    margin-right: auto;
+    margin: 10px 10px;
+    /*border-radius: 6px!important;*/
+    border-radius: 0% 12% 12% 12% / 0% 12% 12% 12%  !important;
+    box-shadow: /*1px 3px 18px 3px*/ 6px 6px 11px rgb(241, 233, 233);
+    background: rgb(219, 213, 213)!important;
+}
+.card_userCard{
+    padding: 0;
+    text-align: right!important;
+    box-sizing: border-box!important;
+    max-height: fit-content;
+    min-width: 45px;
+    max-width: fit-content;
+    margin-left: auto!important;
+    margin: 10px 10px;
+    border-radius: 9% 0% 9% 9% / 9% 0% 9% 9% !important;
+    color: whitesmoke!important;
+    box-shadow: -3px -3px 11px #6389ff;
+    background: rgb(54, 54, 228)!important;
+}
+.card_username{
+    border-bottom: 1px solid white;
+    color: rgb(17, 137, 235) !important;
+}
+@media (max-width:460px){
+    .card_text{
+        font-size: 1.1rem!important;
+    }
+}
+@media (min-width:461px){
+    .card_text{
+        font-size: 1.3rem!important;
+    }
+}
+@media (min-width:768px){
+    .card_text{
+        font-size: 1.1rem!important;
+    }
+}

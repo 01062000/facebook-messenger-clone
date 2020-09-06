@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.app_heading{
+  width: 100vw;
+  height: 30vh;
+  border-bottom: 1px dashed rgb(91, 91, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img{
+  margin-bottom: .8rem;
+}
+.app_heading > h2{
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+.app_heading > p{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  letter-spacing: .1rem;
+  word-spacing: .2rem;
+  margin-bottom: .6rem;
+}
+.app_heading span{
+  font-size: 1.5rem;
+  color: rgb(54, 54, 228)!important;
+  font-weight: 700;
+}
+.send{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input_cointainer{
+  width: 90vw;
+  height: 11vh;
+  z-index: 10000;
+  background: rgba(241, 236, 236, 0.849);
+  border-radius: 60px;
+  position: fixed!important;
+  bottom: 20px!important;
+  display: flex!important;
+  flex-direction: row!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+.input_feild{
+  flex: 0.8!important;
+  /*border: 1px solid blue!important;*/
+  border:none!important;
+  border-bottom: none!important;
+  margin-left: 25px!important;
+}
+.add{
+  flex: 0.2!important;
+  transition: all .4s ease-in-out!important;
+}
+.add:hover{
+  background: none!important;
+  color: rgba(89, 146, 233, 0.918)!important;
+}
+
+@media (max-width:460px){
+  html{
+    font-size: 65%;
+  }
+  h2,p{
+    font-size: large!important;
+  }
+}
+@media (min-width:461px){
+  html{
+    font-size: 100% !important;
+  }
+  h2,p{
+    font-size: 1.3rem!important;
+  }
+}
